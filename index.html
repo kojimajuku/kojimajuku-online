@@ -80,6 +80,11 @@ h2.title::after{content:"";display:block;width:44px;height:4px;border-radius:2px
 .track ul{list-style:none;display:grid;gap:12px}
 .track li{display:flex;gap:12px;align-items:flex-start;font-size:17px;font-weight:900}
 .track li::before{content:"✓";flex:none;width:26px;height:26px;border-radius:50%;background:var(--blue);color:#fff;font-size:14px;display:flex;align-items:center;justify-content:center;margin-top:2px}
+.prof{margin-top:20px;padding-top:18px;border-top:1.5px dashed var(--blue);font-size:15px;line-height:1.8}
+.prof .pt{font-weight:900;color:var(--blue);font-size:16px;margin-bottom:6px}
+.prof p{margin-bottom:8px}
+.prof .solo{font-weight:900}
+.prof .insta{display:inline-block;margin-top:4px;padding:8px 16px;border-radius:999px;border:2px solid var(--blue);color:var(--blue);font-weight:900;text-decoration:none;font-size:14px}
 .track .nt{margin-top:16px;font-size:13px;color:var(--text);font-weight:500}
 .career{margin-top:22px}
 .career h3{font-size:16px;font-weight:900;color:var(--blue)}
@@ -192,7 +197,7 @@ footer b{color:#fff;font-size:15px}
   <h2 class="title">こんな方へ</h2>
   <p class="lead">小島塾Onlineは、逆転合格を目指す高校生・高卒生のためのオンライン個別指導です。</p>
   <div class="grid g3">
-   <div class="card"><h3>逆転合格を目指したい</h3><p>志望校合格に向けた年間・月間・週間の学習計画をつくり、毎日の学習を支えます。</p></div>
+   <div class="card"><h3>逆転合格を目指したい</h3><p>志望校合格に向けた月間・週間の学習計画をつくり、毎日の学習を支えます。</p></div>
    <div class="card"><h3>文系から理系へ（理転）</h3><p>理系科目が未修でも歓迎です。文系出身の代表が、つまずきやすい点に寄り添います。</p></div>
    <div class="card"><h3>進学校以外に通っている</h3><p>進学校以外に通っている方も歓迎です。毎日の学習をオンラインで支えます。</p></div>
   </div>
@@ -206,7 +211,7 @@ footer b{color:#fff;font-size:15px}
   <p class="lead">一般的な個別指導との違いは、次の3つです。</p>
   <div class="cmp">
    <div class="row"><h3>① 毎日の学習TODOにフィードバック</h3>
-    <div class="cols"><div class="c a"><span class="t">一般的な指導</span>面談や授業の日だけ関わり、次の指導まで間が空きがち。</div><div class="c b"><span class="t">小島塾Online</span>毎日の学習TODOにフィードバック。年間・月間・週間の学習計画、月次レポート、模試分析で学習を支えます。</div></div></div>
+    <div class="cols"><div class="c a"><span class="t">一般的な指導</span>面談や授業の日だけ関わり、次の指導まで間が空きがち。</div><div class="c b"><span class="t">小島塾Online</span>毎日の学習TODOにフィードバック。月間・週間の学習計画、月次レポート、模試分析で学習を支えます。</div></div></div>
    <div class="row"><h3>② 文系 → 医学部の実体験</h3>
     <div class="cols"><div class="c a"><span class="t">一般的な指導</span>得意な人の勉強法を、そのまま伝える指導になりがち。</div><div class="c b"><span class="t">小島塾Online</span>代表は文系出身で、現役の医学生（岐阜大学医学部）。文系から理系へ進んだ実体験をもとに指導します。</div></div></div>
    <div class="row"><h3>③ 豊富な指導歴</h3>
@@ -220,8 +225,15 @@ footer b{color:#fff;font-size:15px}
   <div class="eyebrow">TRACK RECORD</div>
   <h2 class="title">代表の家庭教師としての指導実績（2025年度）</h2>
   <div class="track">
-   <ul><li>国公立理系 現役合格</li><li>理系科目未修から私立薬学部 特待合格</li><li>岐阜高校 合格</li></ul>
+   <ul><li>国公立理系 現役合格</li><li>理系科目未修から私立薬学部 特待合格</li><li>県内トップクラスの公立高校 合格</li></ul>
    <p class="nt">※上記は代表個人の家庭教師としての指導実績であり、小島塾Onlineの実績ではありません。</p>
+   <div class="prof">
+    <div class="pt">代表プロフィール</div>
+    <p><b>小島 大空（こじま だいくう）</b>　小島塾 代表</p>
+    <p>文系出身。そこから理系に進路を変え、現在は岐阜大学医学部医学科に在学する現役医学生です。文系から理系へ進んだ自分の経験をもとに、逆転合格を目指す人の勉強を支えます。</p>
+    <p class="solo">小島塾Onlineの指導は、面談・フィードバック・質問対応まで、すべて代表が一人で担当します。</p>
+    <a class="insta" href="https://www.instagram.com/daikuu.med.fitness/" target="_blank" rel="noopener">Instagram　@daikuu.med.fitness</a>
+   </div>
   </div>
   <div class="career">
    <h3>代表の指導歴</h3>
@@ -241,17 +253,17 @@ footer b{color:#fff;font-size:15px}
     <tbody>
      <tr><th>基本プラン</th><td><!-- EDIT-PRICE-BASE: 基本プランの月額（18,000円）。ここと「無料体験の流れ」の2か所 -->
       <span class="price"><small>月</small> <span class="p-base">18,000</span>円</span>
-      <ul><li>週1回30分の1対1オンライン面談</li><li>初回面談50分</li><li>毎日の学習TODOへのフィードバック</li><li>年間・月間・週間の学習計画</li><li>月次レポート</li><li>模試分析</li></ul></td></tr>
-     <tr><th>質問オプション<br><small style="font-weight:500">基本プランに追加</small></th><td><span class="price"><small>＋月</small> 6,800円</span> <small style="font-weight:700;font-size:13px">（1期生割）</small>
+      <ul><li>週1回30分の1対1オンライン面談</li><li>初回面談50分</li><li>毎日の学習TODOへのフィードバック</li><li>月間・週間の学習計画</li><li>月次レポート</li><li>模試分析</li></ul></td></tr>
+     <tr><th>質問オプション<br><small style="font-weight:500">基本プランに追加</small></th><td><span class="price"><small>＋月</small> 6,800円</span>
       <ul><li>毎日1問まで／24時間いつでも送信OK</li><li>原則24時間以内に返信</li><li>難しい問題は48時間以内、または次回面談で解説</li></ul></td></tr>
      <tr class="set"><th>基本プラン＋質問オプション<br><small style="font-weight:700;color:var(--gold)">オンライン塾生1期生割（5名限定）</small></th><td><span class="price"><small>月</small> 24,800円</span></td></tr>
      <tr><th>入会金</th><td><span class="price">10,000円</span> <small style="font-weight:700;font-size:13px">（通常）</small></td></tr>
-     <tr class="disc"><th>再受験割<br><small style="font-weight:500">入会金から</small></th><td><span class="price">-5,000円</span><div class="after2">再受験生、またはE判定の模試結果がある方が対象です。</div></td></tr>
+     <tr class="disc"><th>逆転合格割<br><small style="font-weight:500">入会金から</small></th><td><span class="price">-5,000円</span><div class="after2">再受験生、または現在E判定の方が対象です。</div></td></tr>
     </tbody>
    </table>
   </div>
   <ul class="pnote">
-   <li>表示はすべて税込価格です。質問オプションの+6,800円は1期生割の価格です。</li>
+   <li>表示はすべて税込価格です。</li>
    <li>質問オプションは基本プランのみ追加できます（単独では申し込めません）。</li>
    <li>参考書は実費（生徒負担）です。</li>
    <li>指導科目は英語・数学・化学・生物です。学習相談は全科目に対応します。</li>
@@ -281,7 +293,7 @@ footer b{color:#fff;font-size:15px}
   <div class="steps h">
    <div class="step"><div class="n">1</div><div><h3>LINEで連絡</h3><p>下のボタンまたはQRコードから、「オンライン体験希望」と送ってください。</p></div></div>
    <div class="step"><div class="n">2</div><div><h3>30分のオンライン面談（無料）</h3><p>代表と1対1で面談します。</p></div></div>
-   <div class="step"><div class="n">3</div><div><h3>ご希望の方は入会</h3><p>入会金は10,000円（再受験割 -5,000円）、基本プランは月18,000円（いずれも税込）です。</p></div></div>
+   <div class="step"><div class="n">3</div><div><h3>ご希望の方は入会</h3><p>入会金は10,000円（逆転合格割 -5,000円）、基本プランは月18,000円（いずれも税込）です。</p></div></div>
   </div>
  </div>
 </section>
